@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  web:
+    image: gsyp10032/lab12_step6:latest
+    
+    ports:
+      - "8080:80"
+      
+    
+    pull_policy: always
+    restart: unless-stopped
